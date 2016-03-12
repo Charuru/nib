@@ -1,14 +1,11 @@
-
-require.paths.unshift(__dirname + '/../support');
-
 /**
  * Module dependencies.
  */
 
-var stylus = require('stylus')
-  , connect = require('connect')
-  , jade = require('jade')
-  , nib = require('../');
+var stylus = require('stylus'),
+    connect = require('connect'),
+    jade = require('jade'),
+    nib = require('../');
 
 /**
  * Server.
